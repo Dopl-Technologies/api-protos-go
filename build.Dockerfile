@@ -15,4 +15,4 @@ WORKDIR /defs
 RUN GEN_LANG=go /usr/local/bin/entrypoint.sh -d /defs -o /gen
 
 WORKDIR /output
-RUN cp /gen/github.com.dopl.protos/*.go .
+RUN cp /gen/github.com/dopl-technologies/api-protos-go/*.go .
