@@ -1,6 +1,6 @@
 module github.com/dopl-technologies/api-protos-go
 
-go 1.15.6
+go 1.15
 
 require (
 	github.com/golang/protobuf v1.4.3
