@@ -1,4 +1,4 @@
-FROM namely/protoc-all as builder
+FROM namely/protoc-all:1.34_0 as builder
 
 RUN apt-get -y install git
 
